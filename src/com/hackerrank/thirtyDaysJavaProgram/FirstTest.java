@@ -1,5 +1,4 @@
-package com;
-
+package com.hackerrank.thirtyDaysJavaProgram;
 public class FirstTest {
 
 	public static void main(String[] args) {

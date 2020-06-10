@@ -1,5 +1,4 @@
-package com;
-
+package com.hackerrank.thirtyDaysJavaProgram;
 import java.util.Scanner;
 
 public class StaticInitializer {

@@ -1,5 +1,4 @@
-package com;
-
+package com.hackerrank.thirtyDaysJavaProgram;
 import java.io.*;
 import java.math.*;
 import java.security.*;

@@ -1,5 +1,4 @@
-package com;
-
+package com.hackerrank.thirtyDaysJavaProgram;
 import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;
