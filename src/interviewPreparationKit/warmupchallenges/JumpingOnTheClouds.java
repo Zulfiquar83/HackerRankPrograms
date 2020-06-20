@@ -14,10 +14,34 @@ public class JumpingOnTheClouds {
 
 	// Complete the jumpingOnClouds function below.
 	static int jumpingOnClouds(int[] c) {
+		int n = c.length;
+		int init = 0;
+		int i = 0;
 		int minStep = 0;
 		if (isValidInput) {
+			while (i < n && i + 1 < n) {
+				/*
+				 * if (i == 0) { minStep += 1; i++; continue; }
+				 */
+				if (i + 2 < n && c[i + 2] == 0) {
+					i = i + 2;
+					if (i > n) {
+						minStep += 2;
+						break;
+					} else {
+						minStep += 1;
+						continue;
+					}
 
+				}
+				if (c[i + 1] == 0) {
+					minStep += 1;
+					i = i + 1;
+					continue;
+				}
+			}
 		}
+
 		return minStep;
 	}
 
